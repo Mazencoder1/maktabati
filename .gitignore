@@ -1,0 +1,19 @@
+# build output
+out/
+out-test/
+bin/
+build/
+*.class
+
+# the seeded SQLite database - regenerated automatically by the seeder on first run
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
